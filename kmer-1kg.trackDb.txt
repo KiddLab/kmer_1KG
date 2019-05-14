@@ -1,0 +1,42 @@
+track SASrange
+type bigWig
+container multiWig
+shortLabel SAS kmer range
+longLabel SAS kmer range
+visibility hide
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+viewLimits 0:6
+yLineMark 2.0
+yLineOnOff on
+
+	track SASmax
+	bigDataUrl kmer-1kg/poprange/SAS.max.bed.bw
+	type bigWig
+	longLabel SASmax
+	shortLabel SASmax
+	parent SASrange
+	graphTypeDefault points
+	type bigWig
+	color 130,130,130
+
+	track SASmed
+	bigDataUrl kmer-1kg/poprange/SAS.med.bed.bw
+	type bigWig
+	longLabel SASmed
+	shortLabel SASmed
+	parent SASrange
+	graphTypeDefault points
+	type bigWig
+	color 130,130,130
+
+	track SASmin
+	bigDataUrl kmer-1kg/poprange/SAS.min.bed.bw
+	type bigWig
+	longLabel SASmin
+	shortLabel SASmin
+	parent SASrange
+	graphTypeDefault points
+	type bigWig
+	color 130,130,130
