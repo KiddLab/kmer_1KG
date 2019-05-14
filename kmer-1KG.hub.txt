@@ -1,0 +1,5 @@
+hub  kmer-1KG
+shortLabel Track Data Hub for Kidd Lab  kmer-1KG
+longLabel University of Michigan Medical School, Human Genetics, Kidd Lab Jeff Annotation Track Hub
+genomesFile  kmer-1KG-genomes.txt
+email jmkidd@umich.edu
