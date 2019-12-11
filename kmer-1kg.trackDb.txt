@@ -23070,6 +23070,23 @@ longLabel HG02568 1k bw
 visibility hide
 parent sample_sel_bw on
 
+track HG00449_sel
+type bigBed 9 .
+bigDataUrl sample-sel/HG00449.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG00449
+longLabel HG00449 1k
+visibility dense
+itemRgb on
+parent sample_sel_color on
+
+track HG00449_sel_bw
+type bigWig
+bigDataUrl sample-sel/HG00449.qm2.CN.1k.bed.browser.bw
+shortLabel HG00449
+longLabel HG00449 1k bw
+visibility hide
+parent sample_sel_bw on
+
 
 
 
