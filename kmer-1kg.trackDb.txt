@@ -23024,4 +23024,11 @@ visibility dense
 itemRgb on
 parent sample_sel on
 
+track NA19655_sel_bw
+type bigWig
+bigDataUrl sample-sel/NA19655.qm2.CN.1k.bed.browser.bw
+shortLabel NA19655
+longLabel NA19655 1k bw
+visibility hide
+parent sample_sel on
 
