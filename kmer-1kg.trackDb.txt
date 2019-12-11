@@ -23047,7 +23047,7 @@ parent sample_sel_bw on
 
 track HG00464_sel_bw
 type bigWig
-bigDataUrl HG00464.qm2.CN.1k.bed.browserbedColor.bb
+bigDataUrl sample-sel/HG00464.qm2.CN.1k.bed.browser.bw
 shortLabel HG00464
 longLabel HG00464 1k bw
 visibility hide
