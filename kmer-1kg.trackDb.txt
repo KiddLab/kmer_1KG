@@ -23031,4 +23031,23 @@ shortLabel NA19655
 longLabel NA19655 1k bw
 visibility hide
 parent sample_sel on
+maxHeightPixels 500:100:8
+viewLimits 0:6
+yLineMark 2.0
+yLineOnOff on
+
+
+
+track HG00464_sel_bw
+type bigWig
+bigDataUrl HG00464.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG00464
+longLabel HG00464 1k bw
+visibility hide
+parent sample_sel on
+maxHeightPixels 500:100:8
+viewLimits 0:6
+yLineMark 2.0
+yLineOnOff on
+
 
