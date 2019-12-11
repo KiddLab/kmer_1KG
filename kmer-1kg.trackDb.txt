@@ -22997,12 +22997,24 @@ yLineOnOff on
 
 ##################
 # setup of selected sample subsets
-track sample_sel
+track sample_sel_color
 type bigBed 9 .
 compositeTrack on
-shortLabel sample_sel
-longLabel sample_sel kmer
+shortLabel sample_sel_color
+longLabel sample_sel_color
 visibility hide
+
+track sample_sel_bw
+type bigBed 9 .
+compositeTrack on
+shortLabel sample_sel_bw
+longLabel sample_sel_bw
+visibility hide
+maxHeightPixels 500:100:8
+viewLimits 0:6
+yLineMark 2.0
+yLineOnOff on
+
 
 
 track HG00464_sel
@@ -23012,7 +23024,7 @@ shortLabel HG00464
 longLabel HG00464 1k
 visibility dense
 itemRgb on
-parent sample_sel on
+parent sample_sel_color on
 
 
 track NA19655_sel
@@ -23022,7 +23034,7 @@ shortLabel NA19655
 longLabel NA19655 1k
 visibility dense
 itemRgb on
-parent sample_sel on
+parent sample_sel_color on
 
 track NA19655_sel_bw
 type bigWig
@@ -23030,12 +23042,7 @@ bigDataUrl sample-sel/NA19655.qm2.CN.1k.bed.browser.bw
 shortLabel NA19655
 longLabel NA19655 1k bw
 visibility hide
-parent sample_sel on
-maxHeightPixels 500:100:8
-viewLimits 0:6
-yLineMark 2.0
-yLineOnOff on
-
+parent sample_sel_bw on
 
 
 track HG00464_sel_bw
@@ -23044,10 +23051,5 @@ bigDataUrl HG00464.qm2.CN.1k.bed.browserbedColor.bb
 shortLabel HG00464
 longLabel HG00464 1k bw
 visibility hide
-parent sample_sel on
-maxHeightPixels 500:100:8
-viewLimits 0:6
-yLineMark 2.0
-yLineOnOff on
-
+parent sample_sel_bw on
 
