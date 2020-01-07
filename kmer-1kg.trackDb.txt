@@ -23019,6 +23019,23 @@ yLineOnOff on
 #####################################################################
 # copy sel info here
 
+track HG02464_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02464.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02464
+longLabel HG02464
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02464_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02464.qm2.CN.1k.bed.browser.bw
+shortLabel HG02464
+longLabel HG02464
+visibility hide
+parent sample_sel_bw on
+
 track HG00449_s_bb
 type bigBed 9 .
 bigDataUrl sample-sel/HG00449.qm2.CN.1k.bed.browserbedColor.bb
@@ -23036,6 +23053,40 @@ longLabel HG00449
 visibility hide
 parent sample_sel_bw on
 
+track HG02585_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02585.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02585
+longLabel HG02585
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02585_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02585.qm2.CN.1k.bed.browser.bw
+shortLabel HG02585
+longLabel HG02585
+visibility hide
+parent sample_sel_bw on
+
+track HG02811_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02811.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02811
+longLabel HG02811
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02811_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02811.qm2.CN.1k.bed.browser.bw
+shortLabel HG02811
+longLabel HG02811
+visibility hide
+parent sample_sel_bw on
+
 track NA12878_s_bb
 type bigBed 9 .
 bigDataUrl sample-sel/NA12878.qm2.CN.1k.bed.browserbedColor.bb
@@ -23050,6 +23101,74 @@ type bigWig
 bigDataUrl sample-sel/NA12878.qm2.CN.1k.bed.browser.bw
 shortLabel NA12878
 longLabel NA12878
+visibility hide
+parent sample_sel_bw on
+
+track HG02798_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02798.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02798
+longLabel HG02798
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02798_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02798.qm2.CN.1k.bed.browser.bw
+shortLabel HG02798
+longLabel HG02798
+visibility hide
+parent sample_sel_bw on
+
+track HG02772_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02772.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02772
+longLabel HG02772
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02772_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02772.qm2.CN.1k.bed.browser.bw
+shortLabel HG02772
+longLabel HG02772
+visibility hide
+parent sample_sel_bw on
+
+track HG02878_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02878.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02878
+longLabel HG02878
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02878_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02878.qm2.CN.1k.bed.browser.bw
+shortLabel HG02878
+longLabel HG02878
+visibility hide
+parent sample_sel_bw on
+
+track HG02716_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02716.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02716
+longLabel HG02716
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02716_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02716.qm2.CN.1k.bed.browser.bw
+shortLabel HG02716
+longLabel HG02716
 visibility hide
 parent sample_sel_bw on
 
@@ -23188,6 +23307,25 @@ shortLabel NA18555
 longLabel NA18555
 visibility hide
 parent sample_sel_bw on
+
+track HG02574_s_bb
+type bigBed 9 .
+bigDataUrl sample-sel/HG02574.qm2.CN.1k.bed.browserbedColor.bb
+shortLabel HG02574
+longLabel HG02574
+visibility hide
+itemRgb on
+parent sample_sel_color on
+
+track HG02574_s_bw
+type bigWig
+bigDataUrl sample-sel/HG02574.qm2.CN.1k.bed.browser.bw
+shortLabel HG02574
+longLabel HG02574
+visibility hide
+parent sample_sel_bw on
+
+
 
 
 ######################################################################
