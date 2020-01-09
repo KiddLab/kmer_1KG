@@ -5,6 +5,8 @@ Load the trackhub in the UCSC browser with this link:
 
 https://raw.githubusercontent.com/KiddLab/kmer_1KG/master/kmer-1KG.hub.txt
 
+Files were generated using QuicK-mer2 available at https://github.com/KiddLab/QuicK-mer2
+
 ## Heat map tracks
 
 The most useful tracks are the copy number heat maps for each sample.  These are organized by
