@@ -5,7 +5,7 @@ Load the trackhub in the UCSC browser with this link:
 
 https://raw.githubusercontent.com/KiddLab/kmer_1KG/master/kmer-1KG.hub.txt
 
-## Heatmap tracks
+## Heat map tracks
 
 The most useful tracks are the copy number heat maps for each sample.  These are organized by
 population.  You can use the UCSC track control to select  a subset of samples to display.  
