@@ -5,6 +5,18 @@ Load the trackhub in the UCSC browser with this link:
 
 https://raw.githubusercontent.com/KiddLab/kmer_1KG/master/kmer-1KG.hub.txt
 
+## Heatmap tracks
+
+The most useful tracks are the copy number heat maps for each sample.  These are organized by
+population.  You can use the UCSC track control to select  a subset of samples to display.  
+The tracks are best viewed in dense mode.  Note, that if you zoom out too far the tracks will
+only display as black.
+
+The heat map key is:
+
+![heat map color key](heat-map-key-small.png)
+
+
 ## How to load the track hub
 
 Go to http://genome.ucsc.edu/
