@@ -7,6 +7,9 @@ https://raw.githubusercontent.com/KiddLab/kmer_1KG/master/kmer-1KG.hub.txt
 
 Files were generated using QuicK-mer2 available at https://github.com/KiddLab/QuicK-mer2
 
+If you are interested in generating copy-number estimates based on multi-mapping reads,
+consider  fastCN, accessible at: https://github.com/KiddLab/fastCN
+
 ## Heat map tracks
 
 The most useful tracks are the copy number heat maps for each sample.  These are organized by
@@ -17,6 +20,13 @@ only display as black.
 The heat map key is:
 
 ![heat map color key](heat-map-key-small.png)
+
+
+## Access to raw estimates
+Due to file size limitations, only the heat map tracks can be loaded here.  The raw
+copy number estimates (in bigWig format) can be found here: https://kiddlabshare.med.umich.edu/kmer-1kg_bw/
+
+Let us know if you need guidance in making custom tracks from these files.
 
 
 ## How to load the track hub
